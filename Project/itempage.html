@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="jquery.nice-number.css">
+	<title>Shimano</title>
+</head>
+<body>
+	<div class="container">
+	<div class="navbar">
+		<h1>SHIMANO</h1>
+		<nav>
+		<ul id="menuList">
+			<li><a href="home.html">HOME</a></li>
+			<li class="line"><a href="#">|</a></li>
+			<li><a href="categories.html">CATEGORIES</a></li>
+			<li class="line"><a href="#">|</a></li>
+			<li><a href="aboutus.html">ABOUT</a></li>
+			<li class="line"><a href="#">|</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+		</ul></nav>
+		
+			<form class="example">
+			<input type="text" name="search" placeholder="Search...">
+			<button type="button" id="mybtn">
+						<img src="addcart.png">
+</button>
+			<button><img src="seachicon.png"></button>
+			</form>&nbsp&nbsp			
+			<div class="login">
+			<a href="login.html">Log in</a>
+			</div><img src="hamburger.PNG" class="menu-icon" onclick="togglemenu()">
+	</div>
+
+</div>
+<div class="bpannel">
+	<div class="item-container">
+		<img src="img1.png">
+		<p>Bicycle SM-RT26 Mountain <br> Bike Disc Brake Rotors 160mm</p>
+		<h1>₱1,262.00</h1>
+		<h3>Rating</h3>
+		&nbsp&nbsp&nbsp<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span><h4>4.5 stars</h4>
+<form class="vouch"><br>
+	<input type="button" name="" value="Avalable Vouchers">
+<h5>Quantity</h5>
+	<input type="number" name="" value="0">
+
+</form><br>
+<form class="add-buy">
+	<a href="addcart.html"><input type="button" name="" value="Add To Cart"></a>&nbsp&nbsp&nbsp&nbsp
+	<input type="button" name="" value="buy">
+</form>
+<br>
+<hr style="background-color: #757575;border-color: #757575;">
+<div class="rev">
+	<h1>Reviews : </h1>
+</div>
+
+
+	</div>
+	<div class="location-panel">
+	<h1>Delivery Location: </h1><br>
+	<p>Metro Manila ~ Quezon City, Quezon City Project 6 <a href="">Change</a></p><br>
+	<h1> Standard Delivery</h1><br>
+	<p>3-6 <br>45.00<br>Cash on Delivery Available for orders below <br>P25,000<br>Return & Warranty <br>7 days return to seller<br>Change of mind is not applicable<br>1 Year Local Supplier Warranty</p>
+
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="jquery.nice-number.js"></script>
+<script type="text/javascript">
+	$(function(){
+
+  $('input[type="number"]').niceNumber();
+
+});
+</script>
+</html>

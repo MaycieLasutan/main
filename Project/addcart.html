@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="jquery.nice-number.css">
+	<title>Shimano</title>
+</head>
+<body>
+<div class="container">
+	<div class="navbar">
+		<h1>SHIMANO</h1>
+		<nav>
+		<ul id="menuList">
+			<li><a href="home.html">HOME</a></li>
+			<li class="line"><a href="#">|</a></li>
+			<li><a href="categories.html">CATEGORIES</a></li>
+			<li class="line"><a href="#">|</a></li>
+			<li><a href="aboutus.html">ABOUT</a></li>
+			<li class="line"><a href="#">|</a></li>
+			<li><a href="contactus.html">CONTACT US</a></li>
+		</ul></nav>
+		
+				<form class="example">
+			<input type="text" name="search" placeholder="Search...">
+			<button type="button" id="mybtn">
+			<img src="addcart.png" >
+</button>
+			<button><img src="seachicon.png"></button>
+			</form>&nbsp&nbsp
+			<div class="login">
+			<a href="login.html">Log in</a>
+			</div><img src="hamburger.PNG" class="menu-icon" onclick="togglemenu()">
+	</div>
+
+</div>
+
+<div class="bpannel">
+<div class="cart-label"><h1>Cart</h1></div>
+
+	<div class="cart-panel">
+		<table>
+			<tr>
+				<th>Item</th>
+				<th>Description</th>
+				<th>Price</td>
+				<th>Quantity</th>
+			</tr>
+			<tr>
+				<td><img src="img1.png"></td>
+				<td>Bicycle SM-RT26 Mountain Bike Disc Brake Rotors 160mm</td>
+				<td>₱1,262.00</td>
+				<td><input type="number" name="" value="0"></td>
+			</tr>
+			<tr>
+				<td><img src="img1.png"></td>
+				<td>Bicycle SM-RT26 Mountain Bike Disc Brake Rotors 160mm</td>
+				<td>₱1,262.00</td>
+				<td><input type="number" name="" value="0"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="checkout-panel">
+		<h4>Location</h4><br>
+		<p>
+			Metro Manila ~ Quezon City, Holy Spirit
+		</p>
+		<br>
+		<hr><br>
+		<h3>
+			Order Summary
+		</h3><br>
+		<p>Subtotal(0 items) </p>           <p style="float: right;display: inline-block;overflow: hidden;">P0.00</p><br>
+		<p>shipping </p>           <p style="float: right;display: inline-block;overflow: hidden;">P0.00</p><br><br>
+		<form>
+		<input type="text" name="" value="Enter Voucher Code">
+		<input type="submit" name="" value="Apply"></form><br>
+		<h5>Total    P0.00</h5>
+		<h6>Vat included, where applicable</h6><br>
+		<button type="button">PROCEED CHECKOUT</button>
+	</div>
+</div>
+</body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="jquery.nice-number.js"></script>
+<script type="text/javascript">
+	$(function(){
+
+  $('input[type="number"]').niceNumber();
+
+});
+</script>
+</html>
